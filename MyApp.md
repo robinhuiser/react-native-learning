@@ -34,7 +34,7 @@ Galaxy_S10e_API_28
 Nexus_5X_API_29_x86
 
 # Let's start the Galaxy S10e
-$ emulator -avd Galaxy_S10e_API_28 -netdelay none -netspeed full -noskin
+$ emulator -avd Galaxy_S10e_API_28 -netdelay none -netspeed full
 emulator: ERROR: AdbHostServer.cpp:102: Unable to connect to adb daemon on port: 5037   # Ignore since we do not run Android Studio!
 emulator: Warning: skin file button uses unknown key name 'menu'
 emulator: Warning: skin file button uses unknown key name 'dpad-select'
