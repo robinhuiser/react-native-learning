@@ -47,3 +47,9 @@ $ cd MyApp && npx react-native run-android
 ~~~
 
 Note: the Android development menu can be triggered via `Cmd-M`.
+
+## VSCode tweaks
+
+There is an [issue with VSCode and React Native](https://stackoverflow.com/questions/48859169/js-types-can-only-be-used-in-a-ts-file-visual-studio-code-using-ts-check)...
+
+Use `"javascript.validate.enable": false` in your VS Code settings, It doesn't disable ESLINT. I use both ESLINT & Flow. Simply follow the instructions Flow For Vs Code Setup
