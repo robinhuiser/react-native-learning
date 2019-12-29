@@ -20,7 +20,8 @@ This will start the emulator and app:
 $ cd MyApp && npx react-native run-ios
 ~~~
 
-Note: the iOS development menu can be triggered via `Cmd-D`.
+* The iOS development menu can be triggered via `Cmd+D`
+* Refresh to app via `Cmd+R`
 
 ## Android
 
@@ -46,7 +47,8 @@ emulator: Saving state on exit with session uptime 199331 ms
 $ cd MyApp && npx react-native run-android
 ~~~
 
-Note: the Android development menu can be triggered via `Cmd-M`.
+* The Android development menu can be triggered via `Cmd+M`
+* Refresh to app via `doube tab R` on your keyboard
 
 ## VSCode tweaks
 
