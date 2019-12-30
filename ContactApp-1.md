@@ -65,3 +65,5 @@ AppRegistry.registerComponent(appName, () => App);
 ~~~
 
 ...now we see the contacts screen updated!
+
+Last, remove the (unused) `./App.js`.
