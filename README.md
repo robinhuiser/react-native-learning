@@ -26,8 +26,9 @@ $ brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 
 Install Android Studio: [Download and install Android Studio](https://developer.android.com/studio/index.html); follow the instructions from the [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started) considering a custom installation.
 
-
-
 ## React Native Apps
 
 * [My first React Native app](./MyApp.md)
+* My Contact Management App (from Udemy)
+  * [section 1](./ContactApp-1.md)
+  * [section 2](./ContactApp-2.md)
