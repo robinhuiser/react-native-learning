@@ -83,6 +83,52 @@ components
 * `styles.js` - single place where all style related information for this component
 * `ComponentName.js` - this is the react native component
 
+### Refactor to component
+
+The current screen has the component logic within `Contact.js`; to externalize this in a separate component update:
+
+`./components/ListItem/index.js`:
+
+~~~js
+import ListItem from './ListItem';
+import styles from './styles';
+
+export {
+    ListItem,
+    styles,
+};
+~~~
+
+`./components/ListItem/ListItem.js`:
+
+~~~js
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const ListItem = ({ contact, onPress }) => {
+    return (
+        <View>
+            <Text>{contact.email}</Text>
+        </View>
+    )
+};
+
+export default ListItem;
+~~~
+
+...and update the screen `./app/screens/Contacts.js` to:
+
+~~~js
+...
+import { ListItem } from '../components/ListItem';
+
+...
+    renderItem={({ item }) =>
+        <ListItem contact={item} onPress={() => this.handleRowPress(item)} />
+    }
+...
+~~~
+
 ## StyleSheet and Flexbox
 
 Useful links:
