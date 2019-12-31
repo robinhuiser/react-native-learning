@@ -7,9 +7,9 @@ import { ListItem } from '../components/ListItem';
 
 import '../helpers/string'
 
-class Contacts extends Component {
+class Contacts extends React.Component {
     handleRowPress = (item) => {
-        return null;
+        this.props.navigation.navigate('Details',  item);
     };
 
     render() {

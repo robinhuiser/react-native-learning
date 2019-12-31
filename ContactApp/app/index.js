@@ -1,8 +1,6 @@
 import React from 'react';
-import Contacts from './screens/Contacts';
+import { createAppContainer } from 'react-navigation';
 
-const App = () => {
-  return <Contacts />;
-};
+import { ContactsStack } from './config/router';
 
-export default App;
+export default createAppContainer(ContactsStack);
