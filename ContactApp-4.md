@@ -48,7 +48,7 @@ import { capitalizeFirstLetter } from '../helpers/string'
 
 ...
       navigationOptions : ({ navigation }) => ({
-        title: navigation.state.params.name.first.capitalizeFirstLetter() + " " + 
+        title: navigation.state.params.name.first.capitalizeFirstLetter() + " " +
                navigation.state.params.name.last.capitalizeFirstLetter() ,
       }),
 ~~~
@@ -62,4 +62,8 @@ Easier than the previous exercises (guess I am becoming more familiar with the e
 Allows me to combine multiple (different) components and scroll if the screen size is exceeded, but it has some performance and other caveats compared to FlatList.
 
 ## Create and use an Action component
+
+Amazing... specifically how the instructor extracted the `Row` component from the `Actions`... Got it to work and understand (and can repeat) now the exercise.
+
+## Installation of Moment.js
 

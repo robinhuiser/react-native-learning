@@ -28,8 +28,11 @@ Install Android Studio: [Download and install Android Studio](https://developer.
 
 ## React Native Apps
 
+> Notes made from the Udemy course "Create your first React Native App - A crash course in building your first React Native app in a weekend or less!"
+
 * [My first React Native app](./MyApp.md)
-* My Contact Management App (from Udemy)
+* My Contact Management App
   * [section 1](./ContactApp-1.md)
   * [section 2](./ContactApp-2.md)
   * [section 3](./ContactApp-3.md)
+  * [section 3](./ContactApp-4.md)
