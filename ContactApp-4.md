@@ -67,3 +67,60 @@ Amazing... specifically how the instructor extracted the `Row` component from th
 
 ## Installation of Moment.js
 
+Parse, validate and transform dates in Javascript using library [moment.js](https://momentjs.com/).
+
+~~~bash
+# Install
+$ npm install --save moment
+~~~
+
+Basic usage:
+
+~~~js
+import moment from 'moment';
+
+const date = Date();
+
+// See: https://momentjs.com/docs/#/displaying/
+moment(date).format('MMMM Do, YYYY'); // January 1st, 2020
+~~~
+
+## Exercise: create user Info
+
+Niceeee.... first one I did without peeking into solutions guide! Works!
+
+### Extra: make a call when clicking on icon
+
+~~~bash
+# Install
+$ npm install --save react-native-phone-call
+~~~
+
+...and update the `Actions.js` with:
+
+~~~js
+// Add to imports
+import call from 'react-native-phone-call'
+
+// Add handle function
+const Actions = ({ email, phone, cell }) => {
+
+  handleCallPhonePress = (number) => {
+    call(number).catch(console.error)
+  };
+
+  return (
+    ...
+
+// Point onPress to handle function
+      <Row
+        label="cell"
+        body={cell.toPhoneNumber()}
+        actions={[
+          {
+            onPress: () => this.handleCallPhonePress({ number: cell }),
+            iosIcon: 'ios-call',
+            ...
+~~~
+
+Note for iOS simulator, this will give an error, but it works on a real iPhone.

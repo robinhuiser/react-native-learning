@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, ScrollView } from 'react-native';
 
 import colors from '../config/colors'
-import { Header, Actions } from '../components/UserDetails';
+import { Header, Actions, Info } from '../components/UserDetails';
 
 class Details extends React.Component {
     render() {
@@ -12,7 +12,7 @@ class Details extends React.Component {
             <ScrollView style={{ backgroundColor: colors.background }}>
                 <Header {...contact} />
                 <Actions {...contact} />
-                {/* <Info {...contact} /> */}
+                <Info {...contact} />
           </ScrollView>
         )
     }
