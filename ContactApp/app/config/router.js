@@ -1,9 +1,10 @@
 import React from 'react';
 // import { Text, Platform } from 'react-native';
 import { Platform } from 'react-native';
-import { createAppContainer } from 'react-navigation';
+import { createAppContainer, DrawerNavigator } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { createDrawerNavigator } from 'react-navigation-drawer';
 
 // import Ionicons from 'react-native-vector-icons/Ionicons';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -124,6 +125,35 @@ export const Tabs = createAppContainer(
         navigationOptions: {
           tabBarLabel: 'Me',
           tabBarIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-contact' : 'md-contact'} size={35} color={tintColor} />
+        }
+      },
+    }
+  )
+);
+
+// Section 6: Drawer
+export const Drawer = createAppContainer(
+  createDrawerNavigator(
+    {
+      Contacts: {
+        screen: ContactsStack,
+        navigationOptions: {
+          drawerLabel: 'Contacts',
+          drawerIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-list' : 'md-list'} size={35} color={tintColor} />
+        }
+      },
+      NewContact: {
+        screen: NewContactStack,
+        navigationOptions: {
+          drawerLabel: 'New Contact',
+          drawerIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-add' : 'md-add'} size={35} color={tintColor} />
+        }
+      },
+      Me: {
+        screen: MeStack,
+        navigationOptions: {
+          drawerLabel: 'Me',
+          drawerIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-contact' : 'md-contact'} size={35} color={tintColor} />
         }
       },
     }

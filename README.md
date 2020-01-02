@@ -51,3 +51,4 @@ Install Android Studio: [Download and install Android Studio](https://developer.
   * [section 3](./ContactApp-3.md)
   * [section 4](./ContactApp-4.md)
   * [section 5](./ContactApp-5.md)
+  * [section 6](./ContactApp-6.md)
