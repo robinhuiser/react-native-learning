@@ -29,7 +29,7 @@ export const Tabs = TabNavigator ({
 
 Woot! Woot! Woot!
 
-The component `TabNavigator` no longer exists --  I need to implement the solution using `createBottomTabNavigator`!
+The component `TabNavigator` no longer exists --  looks like I need to implement the solution using `createBottomTabNavigator`!
 
 First, let's install the component and native setup:
 
@@ -139,7 +139,41 @@ export const Tabs = createAppContainer(
 ...
 ~~~
 
-### Extra: aligned on Android the Arabic text
+### The course solution
+
+While I realize my solution is not very elegant considering the many, many lines added for styling - I did made it to work... but the (merged with new method) from the course solution is much better:
+
+~~~js
+export const Tabs = createAppContainer(
+  createBottomTabNavigator(
+    {
+      Contacts: {
+        screen: ContactsStack,
+        navigationOptions: {
+          tabBarLabel: 'Contacts',
+          tabBarIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-list' : 'md-list'} size={35} color={tintColor} />
+        }
+      },
+      NewContact: {
+        screen: NewContactStack,
+        navigationOptions: {
+          tabBarLabel: 'New Contact',
+          tabBarIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-add' : 'md-add'} size={35} color={tintColor} />
+        }
+      },
+      Me: {
+        screen: MeStack,
+        navigationOptions: {
+          tabBarLabel: 'Me',
+          tabBarIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-contact' : 'md-contact'} size={35} color={tintColor} />
+        }
+      },
+    }
+  )
+);
+~~~
+
+## Extra: aligned on Android the Arabic text
 
 I noticed on my Android emulator the name for one of my contacts was aligned to the right (because of the localization of the characterset).
 

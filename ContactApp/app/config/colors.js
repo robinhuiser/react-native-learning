@@ -6,6 +6,7 @@ export default {
     border: '#cccccc',
     grayBackground: '#f9fafb',
     link: '#007AFF',
-    tabIconActive: '#007AFF',
-    tabIconInactive: 'gray',
+    // No longer used... see section 5 notes
+    // tabIconActive: '#007AFF',
+    // tabIconInactive: 'gray',
 };

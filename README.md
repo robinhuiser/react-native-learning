@@ -1,5 +1,7 @@
 # React Native Notes
 
+While following the Udemy training "Create your first React Native App" I wrote down my course notes in this repo.
+
 ## Install React Native
 
 In my case, I work on a MacBook and want to develop apps for iOS and Android; see [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started) for details.
