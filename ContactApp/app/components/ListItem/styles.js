@@ -20,6 +20,7 @@ export default StyleSheet.create({
       fontSize: 16,
       fontWeight: '500',
       color: colors.primaryText,
+      textAlign: 'left'
     },
     email: {
       fontSize: 13,

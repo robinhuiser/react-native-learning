@@ -6,4 +6,6 @@ export default {
     border: '#cccccc',
     grayBackground: '#f9fafb',
     link: '#007AFF',
+    tabIconActive: '#007AFF',
+    tabIconInactive: 'gray',
 };

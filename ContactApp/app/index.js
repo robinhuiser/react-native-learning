@@ -1,6 +1,8 @@
 import React from 'react';
 import { createAppContainer } from 'react-navigation';
 
-import { ContactsStack } from './config/router';
+// import { ContactAppTabs } from './config/router';
+import { Tabs } from './config/router';
 
-export default createAppContainer(ContactsStack);
+// export default createAppContainer(ContactAppTabs);
+export default Tabs;
