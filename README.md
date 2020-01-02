@@ -4,6 +4,18 @@
 
 In my case, I work on a MacBook and want to develop apps for iOS and Android; see [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started) for details.
 
+Using versions:
+
+~~~bash
+# NPX
+$ npx react-native --version  
+3.0.4
+
+# React Native version
+$ cat package.json | grep '"react-native":'
+    "react-native": "0.61.5",
+~~~
+
 ### iOS details
 
 * Command line tools: version 11.3
