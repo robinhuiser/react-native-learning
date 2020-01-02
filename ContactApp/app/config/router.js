@@ -1,25 +1,40 @@
 import React from 'react';
-import { Platform, Button } from 'react-native';
+import { Platform } from 'react-native';
+
+// Navigation stuff
 import { createAppContainer, DrawerNavigator } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { createDrawerNavigator, DrawerActions } from 'react-navigation-drawer';
 
+// Amazing Icon lib for both iOS and Android
 import Icon from 'react-native-vector-icons/Ionicons';
 
+// My screens
 import Contacts from '../screens/Contacts';
 import Details from '../screens/Details';
 import NewContact from '../screens/NewContact';
 import Me from '../screens/Me';
 
+// Functions and components
 import { capitalizeFirstLetter } from '../helpers/string'
+import { DrawerButton } from '../components/Header';
 
+// Will render null if platform is iOS
+const AndroidDrawerButton = ({ navigation }) => {
+  if (Platform.OS === 'android') {
+    return <DrawerButton onPress={() => navigation.dispatch(DrawerActions.openDrawer()) } />
+  }
+  return null;
+}
+
+// The stacks for the app
 export const ContactsStack = createStackNavigator({
   Contacts: {
     screen: Contacts,
-    navigationOptions: ({ navigation }) => ({
+    navigationOptions: (props) => ({
       title: 'Contacts',
-      headerLeft: <Button title="Open" onPress={() => navigation.dispatch(DrawerActions.openDrawer())} />,
+      headerLeft: <AndroidDrawerButton {...props} />,
     }),
   },
   Details: {
@@ -34,9 +49,9 @@ export const ContactsStack = createStackNavigator({
 export const NewContactStack = createStackNavigator({
   NewContact: {
     screen: NewContact,
-    navigationOptions: ({ navigation }) => ({
+    navigationOptions: (props) => ({
       title: 'New Contact',
-      headerLeft: <Button title="Open" onPress={() => navigation.dispatch(DrawerActions.openDrawer())} />,
+      headerLeft: <AndroidDrawerButton {...props} />,
     }),
   },
 });
@@ -44,13 +59,14 @@ export const NewContactStack = createStackNavigator({
 export const MeStack = createStackNavigator({
   Me: {
     screen: Me,
-    navigationOptions: ({ navigation }) => ({
+    navigationOptions: (props) => ({
       title: 'Me',
-      headerLeft: <Button title="Open" onPress={() => navigation.dispatch(DrawerActions.openDrawer())} />,
+      headerLeft: <AndroidDrawerButton {...props} />,
     }),
   },
 });
 
+// The tabs (for iOS)
 export const Tabs = createAppContainer(
   createBottomTabNavigator(
     {
@@ -58,28 +74,28 @@ export const Tabs = createAppContainer(
         screen: ContactsStack,
         navigationOptions: {
           tabBarLabel: 'Contacts',
-          tabBarIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-list' : 'md-list'} size={35} color={tintColor} />
+          tabBarIcon: ({ tintColor }) => <Icon name='ios-list' size={35} color={tintColor} />
         }
       },
       NewContact: {
         screen: NewContactStack,
         navigationOptions: {
           tabBarLabel: 'New Contact',
-          tabBarIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-add' : 'md-add'} size={35} color={tintColor} />
+          tabBarIcon: ({ tintColor }) => <Icon name='ios-add' size={35} color={tintColor} />
         }
       },
       Me: {
         screen: MeStack,
         navigationOptions: {
           tabBarLabel: 'Me',
-          tabBarIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-contact' : 'md-contact'} size={35} color={tintColor} />
+          tabBarIcon: ({ tintColor }) => <Icon name='ios-contact' size={35} color={tintColor} />
         }
       },
     }
   )
 );
 
-// Section 6: Drawer
+// The drawer (for Android)
 export const Drawer = createAppContainer(
   createDrawerNavigator(
     {
@@ -87,21 +103,21 @@ export const Drawer = createAppContainer(
         screen: ContactsStack,
         navigationOptions: {
           drawerLabel: 'Contacts',
-          drawerIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-list' : 'md-list'} size={25} color={tintColor} />
+          drawerIcon: ({ tintColor }) => <Icon name='md-list' size={25} color={tintColor} />
         }
       },
       NewContact: {
         screen: NewContactStack,
         navigationOptions: {
           drawerLabel: 'New Contact',
-          drawerIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-add' : 'md-add'} size={25} color={tintColor} />
+          drawerIcon: ({ tintColor }) => <Icon name='md-add' size={25} color={tintColor} />
         }
       },
       Me: {
         screen: MeStack,
         navigationOptions: {
           drawerLabel: 'Me',
-          drawerIcon: ({ tintColor }) => <Icon name={Platform.OS === 'ios' ? 'ios-contact' : 'md-contact'} size={25} color={tintColor} />
+          drawerIcon: ({ tintColor }) => <Icon name='md-contact' size={25} color={tintColor} />
         }
       },
     }

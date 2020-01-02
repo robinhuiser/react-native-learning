@@ -139,3 +139,32 @@ export const ContactsStack = createStackNavigator({
 ...
 ~~~
 
+## Exercise: create the hamburger button for Android
+
+Tough one... since I did not initially could figure out how to "hide" the button.
+
+I updated the code towards the new `dispatch` API:
+
+~~~js
+const LeftDrawerButton = ({ navigation }) => {
+  if (Platform.OS === 'android') {
+    return <DrawerButton onPress={() => navigation.dispatch(DrawerActions.openDrawer()) } />
+  }
+  return null;
+}
+~~~
+
+...and passing all props to the function in my stacks:
+
+~~~js
+...
+export const ContactsStack = createStackNavigator({
+  Contacts: {
+    screen: Contacts,
+    navigationOptions: (props) => ({
+      title: 'Contacts',
+      headerLeft: <LeftDrawerButton {...props} />,
+    }),
+  },
+...
+~~~
