@@ -1,6 +1,6 @@
 # React Native Notes
 
-While following the Udemy training "Create your first React Native App" I wrote down my course notes in this repo.
+ My notes made during the Udemy course "Create your first React Native App - A crash course in building your first React Native app in a weekend or less!"
 
 ## Install React Native
 
@@ -42,8 +42,6 @@ Install Android Studio: [Download and install Android Studio](https://developer.
 
 ## React Native Apps
 
-> Notes made from the Udemy course "Create your first React Native App - A crash course in building your first React Native app in a weekend or less!"
-
 * [My first React Native app](./MyApp.md)
 * My Contact Management App
   * [section 1](./ContactApp-1.md)
@@ -52,3 +50,5 @@ Install Android Studio: [Download and install Android Studio](https://developer.
   * [section 4](./ContactApp-4.md)
   * [section 5](./ContactApp-5.md)
   * [section 6](./ContactApp-6.md)
+  * [section 7](./ContactApp-7.md)
+  
