@@ -1,8 +1,14 @@
 import React from 'react';
-import { createAppContainer } from 'react-navigation';
+import { Platform } from 'react-native';
 
-// import { ContactAppTabs } from './config/router';
 import { Tabs, Drawer } from './config/router';
 
-// export default createAppContainer(ContactAppTabs);
-export default Drawer;
+const App = () => {
+    if (Platform.OS === 'ios' ) {
+        return <Tabs />;
+    }
+
+    return <Drawer />; 
+};
+
+export default App;
