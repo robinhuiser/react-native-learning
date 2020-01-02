@@ -118,3 +118,24 @@ $ npx react-native run-android
 ~~~
 
 That’s it! Your drawer should now open and close when you swipe on the screen in the correct directions.
+
+## Text button in the header
+
+Again... API changed, hence I modified the following (only showing for a single stack):
+
+~~~js
+// Import DrawerActions since "DrawerOpen" is no longer supported
+import { createDrawerNavigator, DrawerActions } from 'react-navigation-drawer';
+
+// Use the new function navigation.dispatch!
+export const ContactsStack = createStackNavigator({
+  Contacts: {
+    screen: Contacts,
+    navigationOptions: ({ navigation }) => ({
+      title: 'Contacts',
+      headerLeft: <Button title="Open" onPress={() => navigation.dispatch(DrawerActions.openDrawer())} />,
+    }),
+  },
+...
+~~~
+
