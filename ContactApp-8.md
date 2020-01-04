@@ -40,3 +40,6 @@ I was trying not to copy-paste in order to get the "hang of it"...
 # Install
 $ npm install --save react-native-keyboard-aware-scroll-view
 ~~~
+
+Simple - fairly straight forward -- import package and replace `<ScrollView>` with `KeyboardAwareScrollView`.
+
