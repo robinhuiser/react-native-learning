@@ -30,7 +30,10 @@ $ npx react-native run-ios
 $ npx react-native run-android
 
 # Once happy, commit changes to branch
-$ git add .
+$ git add -A
 $ git commit -m 'Renamed app'
 
+# Merge branch back to master
+$ git checkout master
+$ git merge rename-app
 ~~~
