@@ -6,7 +6,7 @@ In case you start your project and your were at the moment without inspiration a
 # Install
 $ npm install react-native-rename -g
 
-# Create a branch (in case something goes wrong)
+# Create a temporarily branch (in case something goes wrong)
 $ git checkout -b rename-app
 
 # Perform the rename within your project dir
@@ -36,4 +36,7 @@ $ git commit -m 'Renamed app'
 # Merge branch back to master
 $ git checkout master
 $ git merge rename-app
+
+# Delete the rename branch
+$ git branch -d rename-app
 ~~~

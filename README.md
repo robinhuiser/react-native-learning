@@ -57,9 +57,8 @@ During the course I made the following observations since a lot has changed (API
 
 ## Misc topics
 
-Some additional work to make the ContactApp more "production-ready".
+Some additional work to make the ContactApp more "production-like".
 
-* [Change the app icon](./SetAppIcon.md)
+* [Set the app icon](./SetAppIcon.md)
 * [Set the splash screen](./SetSplashScreen.md)
 * [Change the app name](./ChangeAppName.md)
-

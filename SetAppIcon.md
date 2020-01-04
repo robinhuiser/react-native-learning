@@ -2,6 +2,13 @@
 
 I am using the react-native plugin [react-native-make](https://github.com/bamlab/react-native-make) on my ContactApp build during the Udemy training above.
 
+## Logo requirements
+
+* The image (logo) has to be square
+* Don't use a transparent image. Not recommended on ios
+* Minimum size of the image is 1024x1024
+* Format accepted : png and jpeg
+
 ## Create the app logo
 
 For the design of the logo, I followed the guidelines from [BuildFire - How To Create An Amazing App Icon](https://buildfire.com/create-amazing-app-icon/).
@@ -22,7 +29,7 @@ In Omnigraffle I created:
   * Recolored to white
   * Added black border of 2px
 
-Last, but not least, I exported the result as a `PNG` file using `72 dots per inch`, disabled transparent background.
+Last, but not least, I exported the result as a `PNG` file using `72 dots per inch`, **disabled** transparent background.
 
 ## Set the app icon
 
