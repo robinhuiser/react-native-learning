@@ -1,12 +1,12 @@
 # React Native Notes
 
- My notes made during the Udemy course "Create your first React Native App - A crash course in building your first React Native app in a weekend or less!"
+ My notes made learning React native.
 
 ## Install React Native
 
 In my case, I work on a MacBook and want to develop apps for iOS and Android; see [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started) for details.
 
-Using versions:
+Using React native version:
 
 ~~~bash
 # NPX
@@ -40,7 +40,9 @@ $ brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 
 Install Android Studio: [Download and install Android Studio](https://developer.android.com/studio/index.html); follow the instructions from the [React Native Getting Started](https://facebook.github.io/react-native/docs/getting-started) considering a custom installation.
 
-## React Native Apps
+## Online training: Udemy - Create your first React Native App
+
+During the course I made the following observations since a lot has changed (API wise) since the training was published.
 
 * [My first React Native app](./MyApp.md)
 * My Contact Management App
@@ -52,4 +54,10 @@ Install Android Studio: [Download and install Android Studio](https://developer.
   * [section 6](./ContactApp-6.md)
   * [section 7](./ContactApp-7.md)
   * [section 8](./ContactApp-8.md)
-  
+
+## Misc topics
+
+Some additional work to make the ContactApp more "production-ready".
+
+* [Change the app icon](./SetAppIcon.md)
+* [Set the splash screen](./SetSplashScreen.md)
