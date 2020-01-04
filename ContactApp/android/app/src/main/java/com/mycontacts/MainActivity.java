@@ -1,4 +1,4 @@
-package com.contactapp;
+package com.mycontacts;
 
 import com.facebook.react.ReactActivity;
 
@@ -15,7 +15,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ContactApp";
+    return "MyContacts";
   }
 
   // Fix the drawer open from left issue

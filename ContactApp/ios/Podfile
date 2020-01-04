@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'ContactApp' do
-  # Pods for ContactApp
+target 'MyContacts' do
+  # Pods for MyContacts
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -36,7 +36,7 @@ target 'ContactApp' do
 
 
 
-  target 'ContactAppTests' do
+  target 'MyContactsTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -44,10 +44,10 @@ target 'ContactApp' do
   use_native_modules!
 end
 
-target 'ContactApp-tvOS' do
-  # Pods for ContactApp-tvOS
+target 'MyContacts-tvOS' do
+  # Pods for MyContacts-tvOS
 
-  target 'ContactApp-tvOSTests' do
+  target 'MyContacts-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

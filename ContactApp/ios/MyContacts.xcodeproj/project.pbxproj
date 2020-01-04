@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ContactAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ContactAppTests.m */; };
-		02ACE128A1C34CEA729BFEAF /* libPods-ContactApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3DE259DA3542B9D7493D62 /* libPods-ContactApp-tvOS.a */; };
+		00E356F31AD99517003FC87E /* MyContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyContactsTests.m */; };
+		02ACE128A1C34CEA729BFEAF /* libPods-MyContacts-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3DE259DA3542B9D7493D62 /* libPods-MyContacts-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +16,10 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ContactAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ContactAppTests.m */; };
-		36D3573D814B7908875E4771 /* libPods-ContactApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A49E2CD138A9C855B77E2A /* libPods-ContactApp.a */; };
-		BA24620249BF63F2C6EEC412 /* libPods-ContactApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D20B45AA20AF09AC2896D /* libPods-ContactApp-tvOSTests.a */; };
-		BC3C21D93180D620D8976C91 /* libPods-ContactAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F9299B8564146D80D411E7 /* libPods-ContactAppTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* MyContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyContactsTests.m */; };
+		36D3573D814B7908875E4771 /* libPods-MyContacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A49E2CD138A9C855B77E2A /* libPods-MyContacts.a */; };
+		BA24620249BF63F2C6EEC412 /* libPods-MyContacts-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D33D20B45AA20AF09AC2896D /* libPods-MyContacts-tvOSTests.a */; };
+		BC3C21D93180D620D8976C91 /* libPods-MyContactsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F9299B8564146D80D411E7 /* libPods-MyContactsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ContactApp;
+			remoteInfo = MyContacts;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ContactApp-tvOS";
+			remoteInfo = "MyContacts-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ContactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MyContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ContactAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ContactApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ContactApp/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MyContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactsTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyContacts/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyContacts/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ContactApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContactApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ContactApp/main.m; sourceTree = "<group>"; };
-		20A49E2CD138A9C855B77E2A /* libPods-ContactApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27060CE4C20AF0530738F246 /* Pods-ContactApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp.debug.xcconfig"; path = "Target Support Files/Pods-ContactApp/Pods-ContactApp.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* ContactApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ContactApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ContactApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ContactApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B3DE259DA3542B9D7493D62 /* libPods-ContactApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CB19F36A3F330D6EB32C51B /* Pods-ContactApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ContactApp-tvOSTests/Pods-ContactApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		716AE46F94F7262C740B816C /* Pods-ContactApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ContactApp-tvOS/Pods-ContactApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		722E9E4C0D84BD9D4939C1C3 /* Pods-ContactApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp.release.xcconfig"; path = "Target Support Files/Pods-ContactApp/Pods-ContactApp.release.xcconfig"; sourceTree = "<group>"; };
-		BF19F1B3D9CF44E3EF5BB8AF /* Pods-ContactAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactAppTests.release.xcconfig"; path = "Target Support Files/Pods-ContactAppTests/Pods-ContactAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		C2F9299B8564146D80D411E7 /* libPods-ContactAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D33D20B45AA20AF09AC2896D /* libPods-ContactApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ContactApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5F79AF10A9E7BCF25E31650 /* Pods-ContactAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ContactAppTests/Pods-ContactAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E8CBE9A0FFD6F106D18610C9 /* Pods-ContactApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ContactApp-tvOS/Pods-ContactApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyContacts/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyContacts/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyContacts/main.m; sourceTree = "<group>"; };
+		20A49E2CD138A9C855B77E2A /* libPods-MyContacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyContacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27060CE4C20AF0530738F246 /* Pods-MyContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContacts.debug.xcconfig"; path = "Target Support Files/Pods-MyContacts/Pods-MyContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MyContacts-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyContacts-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MyContacts-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyContacts-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3DE259DA3542B9D7493D62 /* libPods-MyContacts-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyContacts-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB19F36A3F330D6EB32C51B /* Pods-MyContacts-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContacts-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MyContacts-tvOSTests/Pods-MyContacts-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		716AE46F94F7262C740B816C /* Pods-MyContacts-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContacts-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MyContacts-tvOS/Pods-MyContacts-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		722E9E4C0D84BD9D4939C1C3 /* Pods-MyContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContacts.release.xcconfig"; path = "Target Support Files/Pods-MyContacts/Pods-MyContacts.release.xcconfig"; sourceTree = "<group>"; };
+		BF19F1B3D9CF44E3EF5BB8AF /* Pods-MyContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContactsTests.release.xcconfig"; path = "Target Support Files/Pods-MyContactsTests/Pods-MyContactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2F9299B8564146D80D411E7 /* libPods-MyContactsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyContactsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33D20B45AA20AF09AC2896D /* libPods-MyContacts-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyContacts-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F79AF10A9E7BCF25E31650 /* Pods-MyContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContactsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyContactsTests/Pods-MyContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8CBE9A0FFD6F106D18610C9 /* Pods-MyContacts-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContacts-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MyContacts-tvOS/Pods-MyContacts-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F930E189DE3AAF1901761F8B /* Pods-ContactApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ContactApp-tvOSTests/Pods-ContactApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F930E189DE3AAF1901761F8B /* Pods-MyContacts-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyContacts-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MyContacts-tvOSTests/Pods-MyContacts-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3C21D93180D620D8976C91 /* libPods-ContactAppTests.a in Frameworks */,
+				BC3C21D93180D620D8976C91 /* libPods-MyContactsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D3573D814B7908875E4771 /* libPods-ContactApp.a in Frameworks */,
+				36D3573D814B7908875E4771 /* libPods-MyContacts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02ACE128A1C34CEA729BFEAF /* libPods-ContactApp-tvOS.a in Frameworks */,
+				02ACE128A1C34CEA729BFEAF /* libPods-MyContacts-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA24620249BF63F2C6EEC412 /* libPods-ContactApp-tvOSTests.a in Frameworks */,
+				BA24620249BF63F2C6EEC412 /* libPods-MyContacts-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ContactAppTests */ = {
+		00E356EF1AD99517003FC87E /* MyContactsTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ContactAppTests.m */,
+				00E356F21AD99517003FC87E /* MyContactsTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ContactAppTests;
+			path = MyContactsTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ContactApp */ = {
+		13B07FAE1A68108700A75B9A /* MyContacts */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ContactApp;
+			name = MyContacts;
 			sourceTree = "<group>";
 		};
 		1B8C0214A7774CE29A55A667 /* Resources */ = {
@@ -148,10 +148,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				20A49E2CD138A9C855B77E2A /* libPods-ContactApp.a */,
-				5B3DE259DA3542B9D7493D62 /* libPods-ContactApp-tvOS.a */,
-				D33D20B45AA20AF09AC2896D /* libPods-ContactApp-tvOSTests.a */,
-				C2F9299B8564146D80D411E7 /* libPods-ContactAppTests.a */,
+				20A49E2CD138A9C855B77E2A /* libPods-MyContacts.a */,
+				5B3DE259DA3542B9D7493D62 /* libPods-MyContacts-tvOS.a */,
+				D33D20B45AA20AF09AC2896D /* libPods-MyContacts-tvOSTests.a */,
+				C2F9299B8564146D80D411E7 /* libPods-MyContactsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,14 +159,14 @@
 		2F42CD3B7A08F61CF73E5965 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				27060CE4C20AF0530738F246 /* Pods-ContactApp.debug.xcconfig */,
-				722E9E4C0D84BD9D4939C1C3 /* Pods-ContactApp.release.xcconfig */,
-				716AE46F94F7262C740B816C /* Pods-ContactApp-tvOS.debug.xcconfig */,
-				E8CBE9A0FFD6F106D18610C9 /* Pods-ContactApp-tvOS.release.xcconfig */,
-				6CB19F36A3F330D6EB32C51B /* Pods-ContactApp-tvOSTests.debug.xcconfig */,
-				F930E189DE3AAF1901761F8B /* Pods-ContactApp-tvOSTests.release.xcconfig */,
-				E5F79AF10A9E7BCF25E31650 /* Pods-ContactAppTests.debug.xcconfig */,
-				BF19F1B3D9CF44E3EF5BB8AF /* Pods-ContactAppTests.release.xcconfig */,
+				27060CE4C20AF0530738F246 /* Pods-MyContacts.debug.xcconfig */,
+				722E9E4C0D84BD9D4939C1C3 /* Pods-MyContacts.release.xcconfig */,
+				716AE46F94F7262C740B816C /* Pods-MyContacts-tvOS.debug.xcconfig */,
+				E8CBE9A0FFD6F106D18610C9 /* Pods-MyContacts-tvOS.release.xcconfig */,
+				6CB19F36A3F330D6EB32C51B /* Pods-MyContacts-tvOSTests.debug.xcconfig */,
+				F930E189DE3AAF1901761F8B /* Pods-MyContacts-tvOSTests.release.xcconfig */,
+				E5F79AF10A9E7BCF25E31650 /* Pods-MyContactsTests.debug.xcconfig */,
+				BF19F1B3D9CF44E3EF5BB8AF /* Pods-MyContactsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -181,9 +181,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ContactApp */,
+				13B07FAE1A68108700A75B9A /* MyContacts */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ContactAppTests */,
+				00E356EF1AD99517003FC87E /* MyContactsTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2F42CD3B7A08F61CF73E5965 /* Pods */,
@@ -197,10 +197,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ContactApp.app */,
-				00E356EE1AD99517003FC87E /* ContactAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ContactApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ContactApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MyContacts.app */,
+				00E356EE1AD99517003FC87E /* MyContactsTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MyContacts-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MyContacts-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ContactAppTests */ = {
+		00E356ED1AD99517003FC87E /* MyContactsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ContactAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyContactsTests" */;
 			buildPhases = (
 				DEA5A78B5E050DCDE6E83ADA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -222,14 +222,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ContactAppTests;
-			productName = ContactAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* ContactAppTests.xctest */;
+			name = MyContactsTests;
+			productName = MyContactsTests;
+			productReference = 00E356EE1AD99517003FC87E /* MyContactsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ContactApp */ = {
+		13B07F861A680F5B00A75B9A /* MyContacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ContactApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyContacts" */;
 			buildPhases = (
 				5E74044B90FC9594E7B88145 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -243,14 +243,14 @@
 			);
 			dependencies = (
 			);
-			name = ContactApp;
-			productName = ContactApp;
-			productReference = 13B07F961A680F5B00A75B9A /* ContactApp.app */;
+			name = MyContacts;
+			productName = MyContacts;
+			productReference = 13B07F961A680F5B00A75B9A /* MyContacts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ContactApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* MyContacts-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ContactApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyContacts-tvOS" */;
 			buildPhases = (
 				9FF4EEB9865A3C87CA067619 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -263,14 +263,14 @@
 			);
 			dependencies = (
 			);
-			name = "ContactApp-tvOS";
-			productName = "ContactApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ContactApp-tvOS.app */;
+			name = "MyContacts-tvOS";
+			productName = "MyContacts-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MyContacts-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ContactApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* MyContacts-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ContactApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyContacts-tvOSTests" */;
 			buildPhases = (
 				FED2592DE0D55FFAED79457C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -282,9 +282,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ContactApp-tvOSTests";
-			productName = "ContactApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ContactApp-tvOSTests.xctest */;
+			name = "MyContacts-tvOSTests";
+			productName = "MyContacts-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MyContacts-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -315,7 +315,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ContactApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyContacts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -329,10 +329,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ContactApp */,
-				00E356ED1AD99517003FC87E /* ContactAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* ContactApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ContactApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* MyContacts */,
+				00E356ED1AD99517003FC87E /* MyContactsTests */,
+				2D02E47A1E0B4A5D006451C7 /* MyContacts-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MyContacts-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -415,7 +415,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ContactApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyContacts-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -437,7 +437,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ContactApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyContacts-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,7 +459,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ContactAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyContactsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -472,7 +472,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MyContacts/Pods-MyContacts-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -511,7 +511,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactApp/Pods-ContactApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyContacts/Pods-MyContacts-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -567,7 +567,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ContactApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyContacts-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -581,7 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ContactAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MyContactsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ContactAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* MyContactsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,12 +616,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ContactApp */;
+			target = 13B07F861A680F5B00A75B9A /* MyContacts */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ContactApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* MyContacts-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -633,7 +633,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ContactApp;
+			path = MyContacts;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -641,7 +641,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F79AF10A9E7BCF25E31650 /* Pods-ContactAppTests.debug.xcconfig */;
+			baseConfigurationReference = E5F79AF10A9E7BCF25E31650 /* Pods-MyContactsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 52DFGG3YSS;
@@ -649,7 +649,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ContactAppTests/Info.plist;
+				INFOPLIST_FILE = MyContactsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -659,18 +659,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactApp.app/ContactApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyContacts.app/MyContacts";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF19F1B3D9CF44E3EF5BB8AF /* Pods-ContactAppTests.release.xcconfig */;
+			baseConfigurationReference = BF19F1B3D9CF44E3EF5BB8AF /* Pods-MyContactsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 52DFGG3YSS;
-				INFOPLIST_FILE = ContactAppTests/Info.plist;
+				INFOPLIST_FILE = MyContactsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -680,54 +680,54 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactApp.app/ContactApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyContacts.app/MyContacts";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27060CE4C20AF0530738F246 /* Pods-ContactApp.debug.xcconfig */;
+			baseConfigurationReference = 27060CE4C20AF0530738F246 /* Pods-MyContacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 52DFGG3YSS;
-				INFOPLIST_FILE = ContactApp/Info.plist;
+				INFOPLIST_FILE = MyContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pt.rdc.ContactApp;
-				PRODUCT_NAME = ContactApp;
+				PRODUCT_BUNDLE_IDENTIFIER = pt.rdc.MyContacts;
+				PRODUCT_NAME = MyContacts;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 722E9E4C0D84BD9D4939C1C3 /* Pods-ContactApp.release.xcconfig */;
+			baseConfigurationReference = 722E9E4C0D84BD9D4939C1C3 /* Pods-MyContacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 52DFGG3YSS;
-				INFOPLIST_FILE = ContactApp/Info.plist;
+				INFOPLIST_FILE = MyContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pt.rdc.ContactApp;
-				PRODUCT_NAME = ContactApp;
+				PRODUCT_BUNDLE_IDENTIFIER = pt.rdc.MyContacts;
+				PRODUCT_NAME = MyContacts;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 716AE46F94F7262C740B816C /* Pods-ContactApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 716AE46F94F7262C740B816C /* Pods-MyContacts-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -738,14 +738,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ContactApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "MyContacts-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ContactApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MyContacts-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -755,7 +755,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8CBE9A0FFD6F106D18610C9 /* Pods-ContactApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = E8CBE9A0FFD6F106D18610C9 /* Pods-MyContacts-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -766,14 +766,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ContactApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "MyContacts-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ContactApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MyContacts-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -783,7 +783,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CB19F36A3F330D6EB32C51B /* Pods-ContactApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6CB19F36A3F330D6EB32C51B /* Pods-MyContacts-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -793,24 +793,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ContactApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MyContacts-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ContactApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MyContacts-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactApp-tvOS.app/ContactApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyContacts-tvOS.app/MyContacts-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F930E189DE3AAF1901761F8B /* Pods-ContactApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F930E189DE3AAF1901761F8B /* Pods-MyContacts-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -820,17 +820,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ContactApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "MyContacts-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ContactApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MyContacts-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactApp-tvOS.app/ContactApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyContacts-tvOS.app/MyContacts-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -939,7 +939,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ContactAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyContactsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ContactApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyContacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -957,7 +957,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ContactApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyContacts-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -966,7 +966,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ContactApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MyContacts-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -975,7 +975,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ContactApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyContacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

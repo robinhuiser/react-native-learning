@@ -61,3 +61,5 @@ Some additional work to make the ContactApp more "production-ready".
 
 * [Change the app icon](./SetAppIcon.md)
 * [Set the splash screen](./SetSplashScreen.md)
+* [Change the app name](./ChangeAppName.md)
+
