@@ -32,18 +32,26 @@ class NewContact extends React.Component {
         this.setState(mod);
     };
 
-    handleSubmit = () => {
-        alert('Contact was saved')
+    handleSubmit = (index, override = false) => {
+        if (index === fields.length -1 || override) {
+            alert('Contact was saved')
+        } else {
+            const nextField = fields[index + 1];
+            this[nextField.stateKey].focus();
+        }
     };
 
     render() {
         return (
             <KeyboardAwareScrollView style={{ backgroundColor: colors.background }}>
                 {
-                    fields.map((field) => (
+                    fields.map((field, index) => (
                         <CustomTextInput
                             key={field.stateKey}
                             onChangeText={(text) => this.onInputChange(text, field.stateKey)}
+                            returnKeyType={ index === fields.length -1 ? 'done' : 'next' }
+                            onSubmitEditing={() => this.handleSubmit(index)}
+                            ref={(input) => this[field.stateKey] = input}
                             {...field}
                         />
                     ))
@@ -51,7 +59,7 @@ class NewContact extends React.Component {
                 <View style={{ marginTop: 20 }}>
                     <BasicButton
                         label="Submit"
-                        onPress={() => this.handleSubmit() }
+                        onPress={() => this.handleSubmit(0, true) }
                     />
                 </View>
             </KeyboardAwareScrollView>
