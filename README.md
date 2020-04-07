@@ -1,6 +1,6 @@
 # React Native Notes
 
- My notes made learning React native.
+My scribbles made during the Udemy's [Create Your First React Native App](https://www.udemy.com/course/create-your-first-react-native-app/).
 
 ## Install React Native
 
